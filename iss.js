@@ -168,6 +168,7 @@ const nextISSTimesForMyLocation = function (callback) {
 
         for (let i = 0; i < data.length; i++) {
           console.log(
+            //TODO, convert rise time to dateTime setUTCSeconds
             `Next pass at ${data[i].risetime} (Pacific Daylight Time) for ${data[i].duration} seconds!`
           );
         }
